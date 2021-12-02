@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    background-color: white;
+}
+
+.container .left-section {
+    background-color: #0bb5f4;
+    width: 350px;
+    padding: 0 15px;
+    color: #fff;
+}
+
+.container .left-section .img {
+    width: 320px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .left-section .img img {
+    width: 80%;
+    border-radius: 100%;
+    border: 5px solid #fff;
+}
+
+.container .left-section h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 14px 0;
+}
+
+.container .left-section .profile p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.container .left-section .same {
+    padding-bottom: 15px;
+    border-bottom: 5px solid #fff;
+}
+
+.container .left-section .contact .contact-info {
+    display: flex;
+    padding-left: 5px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.container .left-section .contact .contact-info .fa-mobile-phone,
+span {
+    font-size: 39px;
+    padding: 0px 11px;
+    border: 3px solid #fff;
+    border-radius: 66%;
+}
+
+.container .left-section .contact .contact-info .fa-envelope-o {
+    font-size: 21px;
+    padding: 10px 10px;
+}
+
+.container .left-section .contact .contact-info .fa-linkedin-square {
+    font-size: 26px;
+    padding: 10px 10px;
+}
+
+.container .left-section .contact .contact-info .fa-address-card-o {
+    font-size: 21px;
+    padding: 11px 10px;
+}
+
+.container .left-section .contact .contact-info .contact-data {
+    margin-left: 15px;
+    font-size: 17px;
+}
+
+.container .left-section .contact .contact-info .contact-data a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* skill section starts */
+
+.container .left-section .skill .skill-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 18px;
+}
+.container .left-section .same{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+
+}
+.container .left-section .skill .skill-info .skill-cont {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.container .left-section .skill .skill-info .skill-perc {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+
+/* hobbie section starts */
+
+.container .left-section .hobbie span {
+    font-size: 30px;
+    padding: 10px;
+    margin: 0px 20px;
+}
+
+
+/* right section starts */
+
+.container .right-section {
+    color: black !important;
+    padding-left: 30px;
+}
+
+.container .right-section h3 {
+    color: #0bb5f4;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 30px 0;
+    text-transform: uppercase;
+}
+
+.container .right-section .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 44px;
+}
+
+.container .right-section .main h1 {
+    text-transform: uppercase;
+    color: #0bb5f4;
+    font-size: 43px;
+    text-align: center;
+}
+
+.container .right-section .main h2 {
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+
+/* dob section starts */
+
+.container .right-section .dob {
+    margin: 35px 0;
+}
+
+.container .right-section .dob .dob-c {
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+
+.container .right-section .dob .dob-c p span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* education section starts */
+
+.container .right-section .education .edu-info {
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.container .right-section .education .edu-info span {
+    color: #0bb5f4;
+}
+
+.container .right-section .education .edu-info .year {
+    display: inline-block;
+}
+
+.container .right-section .education .edu-info .clg {
+    margin-left: 45px;
+    margin-top: 5px;
+}
+
+.container .right-section .education .edu-info .clg h6 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container .right-section .education .edu-info .clg p {
+    font-size: 14px;
+}
+
+
+/* work experience starts */
+
+.container .right-section .work-e span {
+    color: #0bb5f4;
+}
+
+.container .right-section .work-e p {
+    display: inline;
+}
+
+
+/* project starts */
+
+.container .right-section .project .project-cont {
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.container .right-section .project .project-cont span {
+    color: #0bb5f4;
+    padding-right: 5px;
+}
+
+.container .right-section .project .project-cont p {
+    font-size: 18px;
+    font-weight: 500;
+    display: inline;
+}
+
+.container .right-section .project .project-cont a {
+    margin-left: 37px;
+    font-weight: 600;
+}
+
+.container .right-section .education>p {
+    text-align: right;
+    margin-right: 35px;
+    margin-top: 20px;
+    color: #0bb5f4;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    
+}
